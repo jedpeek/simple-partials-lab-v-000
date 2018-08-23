@@ -13,3 +13,9 @@
 </p>
   <%= f.submit %>
 <% end %>
+
+<h3>Edit Student</h3>
+
+<%= form_tag post_path(@post), method: "put" do %>
+<%= render 'form' %>
+<% end %>
